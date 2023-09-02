@@ -6,7 +6,7 @@ import killable from 'killable';
 import Twilio from 'twilio';
 import { Server } from "socket.io";
 const __dirname = path.resolve();
-import config from './config.json' assert { type: 'json' };
+//import config from './config.json' assert { type: 'json' };
 if (process.env.NP_PASSWORD) {
     config = {
         "passwordforserver" : process.env.NP_PASSWORD
