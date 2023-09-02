@@ -2,9 +2,6 @@
     "name": "emulatorjs-netplay-server-old",
     "version": 2,
     "public": true,
-    "build": {
-        "use": "@vercel/node"
-    },
     "routes": [
         {
             "src": "/(.*)",
