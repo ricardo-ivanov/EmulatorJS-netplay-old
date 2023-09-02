@@ -8,7 +8,9 @@ import { Server } from "socket.io";
 const __dirname = path.resolve();
 const TWILIO_ACCOUNT_SID= "ACa6d4a79e6ebf5000aa3b90c66219a29b";
 const TWILIO_AUTH_TOKEN="4bff677693c10005cba988c1239327b5";
-
+const config = {
+        "passwordforserver" : "mypassword"
+    }
 //import config from './config.json' assert { type: 'json' };
 if (process.env.NP_PASSWORD) {
     config = {
