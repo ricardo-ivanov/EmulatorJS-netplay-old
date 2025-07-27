@@ -1,1 +1,1 @@
-require('./src/signaling-server/server.js');
+require('./room.js');
